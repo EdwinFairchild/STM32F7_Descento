@@ -34,6 +34,12 @@
     <Filter Include="Source files\CL_libs">
       <UniqueIdentifier>{1d6924fa-f659-4c0f-a6ad-221419e3fb26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\MadgWick">
+      <UniqueIdentifier>{3291014a-90dd-4e4f-bc8b-9c5252e18b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Madgwick">
+      <UniqueIdentifier>{44df6851-b83c-489c-818d-9484b9f457e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="STM32F7_robotics.c">
@@ -201,6 +207,9 @@
     <ClCompile Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.c">
       <Filter>Source files\CL_libs</Filter>
     </ClCompile>
+    <ClCompile Include="MadgwickAHRS\MadgwickAHRS.c">
+      <Filter>Source files\MadgWick</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Drivers\MPU6050\MPU6050.h">
@@ -220,6 +229,9 @@
     </ClInclude>
     <ClInclude Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.h">
       <Filter>Header files\CL_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="MadgwickAHRS\MadgwickAHRS.h">
+      <Filter>Header files\Madgwick</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

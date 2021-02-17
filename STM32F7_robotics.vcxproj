@@ -41,7 +41,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
       <CLanguageStandard>C11</CLanguageStandard>
-      <AdditionalIncludeDirectories>../Drivers/MPU6050;$(ToolchainDir)/arm-none-eabi/include/sys;../STM32_COMM_LIBS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Drivers/MPU6050;c:\sysgcc\arm-eabi/arm-none-eabi/include/sys;../STM32_COMM_LIBS;MadgwickAHRS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
@@ -69,6 +69,7 @@
     <ClCompile Include="..\STM32_COMM_LIBS\CL_delay.c" />
     <ClCompile Include="..\STM32_COMM_LIBS\CL_printMsg.c" />
     <ClCompile Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.c" />
+    <ClCompile Include="MadgwickAHRS\MadgwickAHRS.c" />
     <ClCompile Include="STM32F7_robotics.c" />
     <ClCompile Include="system_stm32f7xx.c" />
     <None Include="stm32.props" />
@@ -98,6 +99,7 @@
     <ClInclude Include="..\STM32_COMM_LIBS\CL_delay.h" />
     <ClInclude Include="..\STM32_COMM_LIBS\CL_printMsg.h" />
     <ClInclude Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.h" />
+    <ClInclude Include="MadgwickAHRS\MadgwickAHRS.h" />
     <ClInclude Include="stm32f7xx_hal_conf.h" />
     <ClInclude Include="$(BSP_ROOT)\STM32F7xxxx\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_adc.h" />
     <ClInclude Include="$(BSP_ROOT)\STM32F7xxxx\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_bus.h" />

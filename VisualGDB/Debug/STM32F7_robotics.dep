@@ -23,29 +23,31 @@ VisualGDB/Debug/STM32F7_robotics.o: STM32F7_robotics.c \
  C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F7xxxx/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h \
  C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F7xxxx/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_rcc.h \
  C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F7xxxx/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_cortex.h \
- c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/CONFIG.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\math.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\reent.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\newlib.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\config.h \
  c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\ieeefp.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_types.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_types.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\lock.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\cdefs.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h \
+ c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/CONFIG.h \
  ../STM32_COMM_LIBS/CL_systemClockUpdate.h ../STM32_COMM_LIBS/CL_CONFIG.h \
  ../STM32_COMM_LIBS/CL_delay.h \
  C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F7xxxx/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_tim.h \
  ../STM32_COMM_LIBS/CL_printMsg.h \
  c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdbool.h \
  c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/stdio.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\lock.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\newlib.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\config.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\reent.h \
- c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_types.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_types.h \
  c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdarg.h \
  c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/string.h \
  c:\sysgcc\arm-eabi\arm-none-eabi\include\stdlib.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h \
- c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\cdefs.h \
  c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\stdlib.h \
- ../STM32_COMM_LIBS/CL_bfp.h ../Drivers/MPU6050/MPU6050.h
+ ../STM32_COMM_LIBS/CL_bfp.h ../Drivers/MPU6050/MPU6050.h \
+ MadgwickAHRS/MadgwickAHRS.h
 
 C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F7xxxx/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h:
 
@@ -95,9 +97,31 @@ C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.st
 
 C:/Users/amaya/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F7xxxx/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_cortex.h:
 
-c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/CONFIG.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\math.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\reent.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\newlib.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\config.h:
 
 c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\ieeefp.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_types.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_types.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\lock.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\cdefs.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
+
+c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/CONFIG.h:
 
 ../STM32_COMM_LIBS/CL_systemClockUpdate.h:
 
@@ -113,34 +137,16 @@ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdbool.h:
 
 c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/stdio.h:
 
-c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\lock.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\newlib.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\config.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\reent.h:
-
-c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_types.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_types.h:
-
 c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdarg.h:
 
 c:/sysgcc/arm-eabi/arm-none-eabi/include/sys/string.h:
 
 c:\sysgcc\arm-eabi\arm-none-eabi\include\stdlib.h:
 
-c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
-
-c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\cdefs.h:
-
 c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\stdlib.h:
 
 ../STM32_COMM_LIBS/CL_bfp.h:
 
 ../Drivers/MPU6050/MPU6050.h:
+
+MadgwickAHRS/MadgwickAHRS.h:
